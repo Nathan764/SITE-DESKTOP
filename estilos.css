@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
+    background: rgb(219, 219, 219);
+}
+
+input{
+    background: transparent;
+    width: 200px;
+    height: 23px;
+    border: 0.5px solid #000000;
+    border-radius: 2px;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    left: 800px;
+    top: 35px;
+}
+
+.meio{
+    text-align: center;
+}
+
+.lupa{
+    left: 805px;
+    position: absolute;
+    top: 39px;
+}
+
+.bag{
+    left: 1030px;
+    position: absolute;
+    top: 32px;
+}
+
+.topo{
+   position: absolute;
+   left: 1575px;
+   top: 19px;
+   font-size: 13px;
+
+}
+
+.linha{
+    position: absolute;
+    left: 1680px;
+    top: 24px;
+}
+.entrar{
+    left: 1746px;
+    position: absolute;
+    top: 20px;
+    font-size: 13px;
+    color: white;
+}
+
+.quadrado{
+    position: absolute;
+    left: 1700px;
+    top: 22px;
+}
+
+.fotos1{
+    position: absolute;
+    margin-left: 200px;
+    width: 350px;
+    display: flex;
+    border-radius: 10px;
+
+}
+
+.fotos1 img{
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.fotos2{
+    position: absolute;
+    margin-left: 200px;
+    top: 400px;
+}
