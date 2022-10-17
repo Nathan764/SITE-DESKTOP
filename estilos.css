@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
 
 body{
     font-family: 'Roboto';
     margin: 0;
     padding: 0;
+    background-color: #000000d5;
 }
 
 .cabecalho{
@@ -44,7 +45,6 @@ input{
    left: 1575px;
    top: 19px;
    font-size: 13px;
-
 }
 
 .linha{
@@ -68,7 +68,7 @@ input{
 
 .fotos1{
     position: absolute;
-    margin-left: 200px;
+    margin-left: 270px;
     width: 350px;
     display: flex;
     border-radius: 10px;
@@ -80,8 +80,73 @@ input{
     border-radius: 30px;
 }
 
+.fotos2 img{
+    border-radius: 20px;
+    padding: 10px;
+    width: 500px;
+}
+
 .fotos2{
     position: absolute;
-    margin-left: 200px;
-    top: 400px;
+    margin-left: 430px;
+    display: flex;
+    padding-top: 215px;
+}
+
+.fotos3{
+    position: absolute;
+    margin-left:310px;
+    display: flex;
+}
+
+.fotos3 img{
+    padding: 30px;
+    margin-top: 630px;
+    width: 200px;
+}
+
+.titulo{
+    position: absolute;
+    margin-top: 295px;
+    font-size: 23px;
+    margin-left: 20px;
+    color: white;
+}
+
+.valor{
+    position: absolute;
+    margin-top: 325px;
+    font-size: 23px;
+    margin-left: 20px;
+    color: white;
+}
+
+.titulo2{
+    position: absolute;
+    margin-top: 295px;
+    font-size: 23px;
+    margin-left: 545px;
+    color: white;
+}
+
+.valor2{
+    position: absolute;
+    margin-top: 325px;
+    font-size: 23px;
+    margin-left: 545px;
+    color: white;
+}
+
+.titulo3{
+    margin-top: 600px;
+    position: absolute;
+    margin-left: 850px;
+    font-size: 30px;
+    color: white;
+}
+
+.prevenda{
+    color: white;
+    font-family: 'Roboto', Light 300;
+
 }
